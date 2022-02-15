@@ -1,17 +1,19 @@
-footer {
-  border: 3px solid blue;
+.footer {
+  border: 1px solid black;
   border-radius: 5px;
   display: flex;
-  justify-content: space-around;
-  gap: 25px;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 0px;
   height: 48px;
 }
 
 .footer__button {
+  background-color: rgb(215, 215, 240);
   border: solid 2px black;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  /* background-color: rgb(215, 215, 240);
+  border: 1px groove black;
+  border-radius: 4px; */
   text-decoration: none;
 }
