@@ -5,9 +5,9 @@ body {
   height: 100vh;
   overflow-y: auto;
 }
-h1 {
+h2 {
   height: 48px;
-  background-color: rgb(151, 151, 196);
+  background-color: #d7d7f0;
   text-align: center;
 }
 
