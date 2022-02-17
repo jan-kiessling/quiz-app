@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run prettier:check && npm run eslint:check",
+    "dev": "npx live-server .",
+    "prettier:write": "npx prettier --write .",
+    "prettier:check": "npx prettier --check .",
+    "eslint:check": "npx eslint .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,12 @@
   },
   "homepage": "https://github.com/jan-kiessling/quiz-app#readme",
   "dependencies": {
+    "live-server": "^1.2.1",
     "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4"
   }
 }
