@@ -1,6 +1,15 @@
 * {
   box-sizing: border-box;
 }
+/* Experiment */
+.hidden {
+  display: none;
+}
+
+.active {
+  background: hotpink;
+}
+/* Experiment */
 body {
   height: 100vh;
   overflow-y: auto;

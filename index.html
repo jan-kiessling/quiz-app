@@ -107,9 +107,9 @@
           </section>
         </article>
       </div>
-      <div>
-        <!-- Bookmarks  -->
-        <div data-page="bookmarks">
+      <!-- Bookmarks  -->
+      <div class="hidden" data-page="bookmarks">
+        <div>
           <h2>Bookmarks</h2>
         </div>
         <article class="question-card">
@@ -196,21 +196,30 @@
           </section>
         </article>
       </div>
+
+      <!-- Create -->
+      <div class="hidden" data-page="create">
+        <h2>create</h2>
+      </div>
+      <!-- Profile -->
+      <div class="hidden" data-page="profile">
+        <h2>Profile</h2>
+      </div>
     </main>
 
     <nav class="footer">
-      <a href="/index.html" class="footer__button">
-        <i class="fas fa-home"> </i
-      ></a>
-      <a href="/bookmarks.html" class="footer__button"
-        ><i class="far fa-bookmark"></i
-      ></a>
-      <a href="/create-quizcard.html" class="footer__button"
-        ><i class="far fa-plus-square"></i
-      ></a>
-      <a href="/account.html" class="footer__button"
-        ><i class="far fa-user-circle"></i
-      ></a>
+      <button data-nav="home" class="footer__button button-reset">
+        <i class="fas fa-home fa-2x"></i>
+      </button>
+      <button data-nav="bookmarks" class="footer__button button-reset">
+        <i class="far fa-bookmark fa-2x"></i>
+      </button>
+      <button data-nav="create" class="footer__button button-reset">
+        <i class="far fa-plus-square fa-2x"></i>
+      </button>
+      <button data-nav="profile" class="footer__button button-reset">
+        <i class="far fa-user-circle fa-2x"></i>
+      </button>
     </nav>
   </body>
 </html>
