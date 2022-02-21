@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script defer src="./index.js"></script>
+    <script defer src="./index.js" type="module"></script>
     <title>Quiz</title>
   </head>
 
@@ -200,6 +200,35 @@
       <!-- Create -->
       <div class="hidden" data-page="create">
         <h2>create</h2>
+        <fieldset class="forms">
+          <label for="create-question-1">Add question</label>
+          <textarea
+            name="create-question"
+            id="create-question-1"
+            cols="40"
+            rows="8"
+            maxlength="300"
+            placeholder="Add question here"
+          ></textarea>
+          <label for="add-answer-1">Add Answer</label>
+          <textarea
+            name="add-answer"
+            id="add-answer-1"
+            cols="40"
+            rows="8"
+            maxlength="300"
+            placeholder="Add answer"
+          ></textarea>
+          <label for="add-tags-1">Add Answer</label>
+          <textarea
+            name="add-tags"
+            id="add-tags-1"
+            cols="40"
+            rows="8"
+            maxlength="300"
+            placeholder="Add tags here"
+          ></textarea>
+        </fieldset>
       </div>
       <!-- Profile -->
       <div class="hidden" data-page="profile">

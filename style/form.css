@@ -1,0 +1,9 @@
+.forms {
+  background-color: #d7d7f0;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid 1px black;
+  display: grid;
+  gap: 10px;
+}
